@@ -3,7 +3,7 @@ COTTaskHelper
 
 A thin wrapper around NSTask that provides block callbacks for task completion, error, and output.
 
-````
+````Objective-C
 NSTask *task = [[NSTask alloc] init];
 [task setLaunchPath:@"/bin/bash"];
 [task setArguments:@[@"-c", @"some command"]];
